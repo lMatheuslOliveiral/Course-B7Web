@@ -1,25 +1,21 @@
 body {
-    background-color: black;
+    background-color: rgb(20, 20, 24);
 }
 
-h1 {
-    color: wheat;
-}
-
-a {
+a, p {
     color: whitesmoke;
-    size: 19px;
+    size: 20px;
 }
 
 a:hover {
     color: brown;
 }
 
-p {
-    color: whitesmoke;
-    size: 19px;
+h1, h2, ol { 
+    color: beige;
 }
 
-ol {
-    color: beige;
+h2 {
+    background-color: rgba(165, 18, 18, 0.74);
+    width: 600px
 }
