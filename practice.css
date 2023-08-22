@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: wheat;
+}
+
+a {
+    color: whitesmoke;
+    size: 19px;
+}
+
+a:hover {
+    color: brown;
+}
+
+p {
+    color: whitesmoke;
+    size: 19px;
+}
+
+ol {
+    color: beige;
+}
