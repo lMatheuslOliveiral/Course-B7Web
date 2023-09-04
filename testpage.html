@@ -5,17 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="forms.css">
 </head>
 <body>
     <h2>Register Area</h2>
 
-    <form action="modulo 1 e 2.html" method="post">
-        <input type="text" name="usuario" value ="User name">
+    <fieldset>
+        <legend>Personal data</legend>
+        <form action="modulo 1 e 2.html" method="post">
+
+            <input type="text" name="usuario" value ="User name"><br>
+            <input type="date" name="date of birth"> <br>
+
+            <label> 
+                Male
+                <input type="radio" name="sex">
+        </label>
+        <label>
+                Female
+                <input type="radio" name="sex">
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Info</legend>
+        <form action="modulo 1 e 2.html" method="post">
+
+            <input type="email" name="email user" value ="Your e-mail"><br>
+            <input type="tel" name="Telephone`s user" value="Telephone number"> <br>
+            <input type="text">
+
+    </fieldset>
+
+        
+
         <input type="submit">
 
         <br>
 
-        <textarea name="descricao"></textarea>
 
     </form>
 
