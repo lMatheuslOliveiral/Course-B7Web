@@ -16,3 +16,18 @@ label{
     margin-top: 5px;
     resize: none;
 }
+
+#category{
+    background-color: #f5f5f5;
+
+    margin-top: 5px;
+    width: 320px;
+}
+
+#terms{
+    margin-top: 5px;
+}
+
+button{
+    padding: 5px;
+}
