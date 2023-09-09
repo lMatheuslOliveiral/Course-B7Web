@@ -1,7 +1,18 @@
-fieldset {
-    width: 200px;
+label{
+    display: block;
+    margin-top: 10px;
 }
 
-label {
-    display: block;
+#name{
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#informations{
+    width: 302px;
+    height: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    resize: none;
 }

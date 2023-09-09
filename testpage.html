@@ -10,54 +10,35 @@
 <body>
     <h2>Register Area</h2>
 
-    <fieldset>
-        <legend>Personal data</legend>
-        <form action="modulo 1 e 2.html" method="post">
-            <div>Name:</div>
-            <input type="text" name="usuario" required>
-            <div>Date of Birth</div>
-            <input type="date" name="date of birth">
-
-            <label> 
-                Male
-                <input type="radio" name="sex">
-        </label>
+    <form action="modulo 1 e 2.html" method="get">
         <label>
-                Female
-                <input type="radio" name="sex">
+            Name: <br>
+            <input id="name" type="text" required>
         </label>
 
-    </fieldset>
+        <label>
+            Description: <br>
+            <textarea id="informations" name="informations"></textarea>
+        </label>
 
-    <fieldset>
-        <legend>Contact Info</legend>
-        
-        <form action="modulo 1 e 2.html" method="post">
-            <div>E-mail:</div>
-            <input type="email" name="User`s E-mail" required>
-            <div>Telephone Number:</div>
-            <input type="tel" name="User`s Telephone">
-            <div>Web Site:</div>
-            <input type="url" name="Web`s user">
+        <label>
+          Category <br>
+          <select name="category" style="width: 200px;">
+            <option></option>
+            <option value="Category 1">Category 1</option>
+            <option value="Category 2">Category 2</option>
+            </select>
+        </label>
 
+        <label>
+            <input type="checkbox">Eu li e aceito os <a href="https://www.lipsum.com/" target="_blank">termos de uso.</a>
+        </label>
 
-    </fieldset>
-
-        
-
-        <input type="submit">
-
-        <br>
+        <button>Register</button>
 
 
     </form>
-
-    <h2>Login Area</h2>
-
-
-
-    <form action="">
-
-    </form>
+    
+     
 </body>
 </html>
