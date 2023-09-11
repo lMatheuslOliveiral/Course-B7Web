@@ -21,7 +21,8 @@ h1, h2 {
 
 h2 {
     background-color: rgba(165, 18, 18, 0.74);
-    width: 600px
+    width: 50%;
+    min-width: 400px;
 }
 
 ul {
@@ -48,6 +49,7 @@ tbody tr:hover {
     background-color: #00969b5e;
 }
 
-value{
-    
+img {
+    min-width: 400px;
+    width: 50%;
 }
