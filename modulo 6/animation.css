@@ -1,0 +1,27 @@
+@keyframes teste {
+    0% {background-color: aliceblue; top: 0px; left: 0px; }
+    25% {background-color: aquamarine; top: 0px; left: 1000px;}
+    50% {background-color: azure; top: 400px; left: 1000px;}
+    75% {background-color: bisque; top: 400px; left: 0px;}
+    100% {background-color: blue; top: 0px; left: 0px;}
+}
+
+body{
+    margin: 0;
+    background-color: #002725;
+    
+}
+
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    animation-name:teste;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    
+
+}
