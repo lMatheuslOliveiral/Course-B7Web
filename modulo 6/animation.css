@@ -1,10 +1,23 @@
-@keyframes teste {
-    0% {background-color: aliceblue; top: 0px; left: 0px; }
-    25% {background-color: aquamarine; top: 0px; left: 1000px;}
-    50% {background-color: azure; top: 400px; left: 1000px;}
-    75% {background-color: bisque; top: 400px; left: 0px;}
-    100% {background-color: blue; top: 0px; left: 0px;}
+@keyframes exercise {
+    0% {top: 0px; left: 0px;}
+    20% {top: 0px; left: 500px;}
+    40% {top: 400px; left: 500px;}
+    60% {top: 400px; left: 1000px;}
+    80% {top: 0px; left: 1000px;}
+    100% {top: 0px; left: 0px;}
 }
+@keyframes pulse {
+    0% {background-color: blue; width: 200px; height: 200px; border-radius: 100px;}
+    50% {background-color: #2fa8a2; width: 300px; height: 300px; border-radius: 150px;}
+    100% {background-color: #2fa8a2; width: 200px; height: 200px; border-radius: 200px;}
+}
+
+@keyframes text{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+
 
 body{
     margin: 0;
@@ -18,10 +31,36 @@ div{
     height: 200px;
     border-radius: 100px;
     position: absolute;
-    animation-name:teste;
-    animation-duration: 6s;
-    animation-delay: 1s;
-    animation-iteration-count: 3;
-    
+    animation-name: exercise;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 }
+
+.test {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 85vh;
+    font-size: 5rem;
+    color: aliceblue;
+    animation-name: text;
+    opacity: 0;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+    
+
